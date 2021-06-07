@@ -10,7 +10,7 @@
 ## 2. Index
 
 - [Scene introduction](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#3-scene-introduction)
-- [Use Terraform to create resources & setup environment](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#4-use-terraform-to-create-resources-setup-environment)
+- [Use Terraform to create resources & setup environment](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#4-use-terraform-to-create-resources--setup-environment)
 - [Install Canal](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#5-install-canal)
 - [Data synchronization test](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#6-data-synchronization-test)
 - [Demo with rendering the Redis data on Web App](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#7-demo-with-rendering-the-redis-data-on-web-app)
@@ -37,7 +37,7 @@ Except for Canal which needs to be deployed on ECS, these components will be cre
 
 ## 4. Use Terraform to create resources & setup environment
 
-### 4.1 Install Terraform
+### 4.1 Install Terraform (skip this step if you already have Terraform installed)
 
 Run the following command to update the apt installation source.(This experiment uses the Ubuntu 16.04 system)
 
