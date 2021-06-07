@@ -428,6 +428,12 @@ Enter the following command to download a sample jar package, which will be resp
 cd && wget https://labex-ali-data.oss-us-west-1.aliyuncs.com/canal/canal-0.0.1-SNAPSHOT.jar
 ```
 
+Or you can build canal-0.0.1-SNAPSHOT.jar from the source code under the directory: https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync/tree/master/source
+
+```
+mvn clean package assembly:single -DskipTests
+```
+
 ![image desc](https://labex.io/upload/S/M/M/outrCl5ttQKq.jpg)
 
 Enter the following command to start the synchronization process, ***Please pay attention to replace YOUR-KAFKA-ADDR, YOUR-REDIS-ADDR with the user's own Kafka and Redis connection address***
