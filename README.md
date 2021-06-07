@@ -1,5 +1,5 @@
 ## Project URL
-[http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync)
+[https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync)
 
 
 ## 1. Architecture overview
@@ -9,11 +9,11 @@
 
 ## 2. Index
 
-- [Scene introduction](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync#3-scene-introduction)
-- [Use Terraform to create resources & setup environment](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync#4-use-terraform-to-create-resources-setup-environment)
-- [Install Canal](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync#5-install-canal)
-- [Data synchronization test](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync#6-data-synchronization-test)
-- [Demo with rendering the Redis data on Web App](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync#7-demo-with-rendering-the-redis-data-on-web-app)
+- [Scene introduction](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#3-scene-introduction)
+- [Use Terraform to create resources & setup environment](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#4-use-terraform-to-create-resources-setup-environment)
+- [Install Canal](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#5-install-canal)
+- [Data synchronization test](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#6-data-synchronization-test)
+- [Demo with rendering the Redis data on Web App](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#7-demo-with-rendering-the-redis-data-on-web-app)
 
 ## 3. Scene introduction
 
@@ -91,7 +91,7 @@ mkdir -p terraform && cd terraform
 
 ![image desc](https://labex.io/upload/X/K/C/vB9CkOZU8YGB.jpg)
 
-Enter the command ``vim main.tf``, copy the content of this file ([http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync/blob/master/deployment/terraform/main.tf](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync/blob/master/deployment/terraform/main.tf)) to the file, save and exit. ***Please pay attention to modify YOUR-ACCESS-ID and YOUR-ACCESS-KEY to your own AccessKey***
+Enter the command ``vim main.tf``, copy the content of this file ([https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync/blob/master/deployment/terraform/main.tf](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync/blob/master/deployment/terraform/main.tf)) to the file, save and exit. ***Please pay attention to modify YOUR-ACCESS-ID and YOUR-ACCESS-KEY to your own AccessKey***
 
 ![image desc](https://labex.io/upload/H/U/Y/2FMBfWxJIclN.jpg)
 
@@ -701,7 +701,7 @@ Access from the browser with "labex2" ECS in this tutorial. ***Please pay attent
 
 ![image desc](https://labex.io/upload/B/F/S/lT6f02XJ7p6C.jpg)
 
-Next, we repeat the operations of inserting, updating, and deleting data in MySQL in the section [Data synchronization test](http://gitlab.alibaba-inc.com/alibabacloud-labs/solution-mysql-redis-canal-kafka-sync#6-data-synchronization-test), and then refresh the browser to see the data in Redis.
+Next, we repeat the operations of inserting, updating, and deleting data in MySQL in the section [Data synchronization test](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync#6-data-synchronization-test), and then refresh the browser to see the data in Redis.
 
 ![image desc](https://labex.io/upload/X/Q/R/QWjtOXCItV1g.jpg)
 
