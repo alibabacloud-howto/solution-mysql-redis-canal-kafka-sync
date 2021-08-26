@@ -1,3 +1,11 @@
+# Redis Data Synchronization with RDS MySQL Using Canal & Kafka
+
+You can access the tutorial artifact including deployment script (Terraform), related source code, sample data and instruction guidance from the github project:
+[https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync)
+
+More tutorial around Alibaba Cloud Database, please refer to:
+[https://github.com/alibabacloud-howto/database](https://github.com/alibabacloud-howto/database)
+
 ## Project URL
 [https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync](https://github.com/alibabacloud-howto/solution-mysql-redis-canal-kafka-sync)
 
