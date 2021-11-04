@@ -47,7 +47,11 @@ Except for Canal which needs to be deployed on ECS, these components will be cre
 
 ### 4.1 Install Terraform (skip this step if you already have Terraform installed)
 
-Run the following command to update the apt installation source.(This experiment uses the Ubuntu 16.04 system)
+If you are the 1st time to use Terraform, please refer to [https://github.com/alibabacloud-howto/terraform-templates](https://github.com/alibabacloud-howto/terraform-templates) to learn how to install and use the Terraform on different operating systems.
+
+Or if you are using Ubuntu, you can follow the following steps to install Terraform.
+
+Run the following command to update the apt installation source. (This experiment uses the Ubuntu 16.04 system)
 
 ```
 apt update
