@@ -237,7 +237,7 @@ tar -zxf jdk-8u181-linux-x64.tar.gz -C /usr/local/
 
 ![image desc](https://labex.io/upload/R/D/F/ylMi2h6BnK6e.png)
 
-Input the ``vim /etc/profile`` command to open this fie and then add the following code to the end of this file.
+Input the ``vim /etc/profile`` command to open this file and then add the following code to the end of this file.
 
 ```
 vim /etc/profile
