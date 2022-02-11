@@ -221,7 +221,7 @@ Note that redis-cli has been installed.
 
 ### 4.5 Install JDK
 
-Input the following command to download the installation package。
+Input the following command to download the installation package.
 
 ```
 cd && wget https://labex-ali-data.oss-accelerate.aliyuncs.com/spark-analysis/jdk-8u181-linux-x64.tar.gz
